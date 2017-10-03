@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Work 06</title>
+  </head>
+  
+  <body>
+    <h2> Please enter your username to be returned! </h2>
+    <form method="GET">
+      <p>Username:
+	<input type="text" name="user">
+      </p>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+    <h3>Hello {{data}}!</h3>
+    <br>
+    <h3>You used {{method}}</h3>
+  </body>
+</html>
